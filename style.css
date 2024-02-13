@@ -1,0 +1,133 @@
+.hero_section{
+
+    background-image: url(developer.png);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text_container{
+    color: white;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 64px;
+    padding-left: 16px;
+    font-size: 200px
+   
+    
+}
+
+.lg_text{
+    font-size: 72px;
+    font-weight: 400;
+}
+
+.black_box{
+    background-color: black;
+    padding: 20PX;
+}
+
+.black_box h2{
+    color: white;
+   font-size: 72px;
+   text-align: center;
+   font-weight: 300;
+
+}
+
+.black_box h2 span{
+    font-size: 96px;
+    font-weight: 400;
+}
+
+.card{
+    width: 100%;
+    border: 5px solid black;
+    border-radius: 0%;
+}
+
+.card h5{
+    color: white;
+    font-size: 72px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.card p{
+    font-size: 20px;
+}
+
+.bottom_section{
+    display: flex;
+}
+
+.contact{
+    background-color: #515603;
+  min-height: 300px;
+    width: 50%;
+    padding: 32px;
+    color: white;
+}
+
+.about{
+    background-color: #722300;
+    width: 50%;
+  min-height: 300px;
+  padding: 32px;
+color: white;
+}
+
+.about p,
+.contact p{
+    margin-bottom: 20px;
+}
+
+.about h2,
+.contact h2{
+   font-size: 64px;
+   font-weight: 300;
+}
+
+footer{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #000;
+    padding: 20px;
+    color: white;
+}
+
+@media (max-width:786px){
+    .hero_section{
+        min-height: 50vh;
+    }
+    .text_container{
+       padding: 10px 0;
+       text-align: center;
+    }
+    .lg_text{
+        font-size: 32px;
+    }
+    .black_box h2{
+        font-size: 24px;
+    }
+    .black_box h2 span{
+        font-weight: 400;
+        font-size:32px;
+    }
+    .bottom_section{
+        flex-direction: column;
+        width: 92.5vh;
+    }
+    h1{
+        font-size: 32px;
+    }
+    .about h2,
+.contact h2{
+    font-size: 32px;
+}
+.card img{
+   height: 40vh;
+}
+
+}
